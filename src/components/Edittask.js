@@ -1,6 +1,6 @@
 import {useDispatch} from "react-redux";
 import {editTask} from '../features/todolistSlice'
-import {useEffect,useState} from 'react'
+import {useState} from 'react'
 
 function Edittask(props) {
    const dispatch = useDispatch()
